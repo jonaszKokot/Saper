@@ -446,10 +446,6 @@ bool czy_wygrana(Gra* g) {
 int main() {
     int wiersz = 0, kolumna = 0, poziom_trudnosci = 0;
     int* rekord_wierszu = &wiersz;
-    printf("Wartość: %d", rekord_wierszu);
-    
-    system("pause");
-    /*
     bool pierwszy_ruch = true;
     bool wejsc_do_menu = false;
     bool przerwac_gre = false;
@@ -656,6 +652,5 @@ int main() {
             }
         }
     } while (true);
-    */
     return 0;
 }
